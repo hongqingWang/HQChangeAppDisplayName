@@ -13,6 +13,7 @@
 		18AA01701E49834A009FCA12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AA016E1E49834A009FCA12 /* Main.storyboard */; };
 		18AA01721E49834A009FCA12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AA01711E49834A009FCA12 /* Assets.xcassets */; };
 		18AA01751E49834A009FCA12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AA01731E49834A009FCA12 /* LaunchScreen.storyboard */; };
+		18AA017E1E498CFF009FCA12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18AA01801E498CFF009FCA12 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,10 @@
 		18AA01711E49834A009FCA12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18AA01741E49834A009FCA12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18AA01761E49834A009FCA12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AA017F1E498CFF009FCA12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18AA01811E4990B5009FCA12 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		18AA01821E4990B5009FCA12 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		18AA01831E4990B5009FCA12 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +71,7 @@
 				18AA01711E49834A009FCA12 /* Assets.xcassets */,
 				18AA01731E49834A009FCA12 /* LaunchScreen.storyboard */,
 				18AA01761E49834A009FCA12 /* Info.plist */,
+				18AA01801E498CFF009FCA12 /* InfoPlist.strings */,
 				18AA01651E49834A009FCA12 /* Supporting Files */,
 			);
 			path = HQChangeAppDisplayName;
@@ -121,6 +127,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 18AA01591E49834A009FCA12;
 			productRefGroup = 18AA01631E49834A009FCA12 /* Products */;
@@ -138,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18AA01751E49834A009FCA12 /* LaunchScreen.storyboard in Resources */,
+				18AA017E1E498CFF009FCA12 /* InfoPlist.strings in Resources */,
 				18AA01721E49834A009FCA12 /* Assets.xcassets in Resources */,
 				18AA01701E49834A009FCA12 /* Main.storyboard in Resources */,
 			);
@@ -163,6 +171,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				18AA016F1E49834A009FCA12 /* Base */,
+				18AA01811E4990B5009FCA12 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -171,8 +180,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				18AA01741E49834A009FCA12 /* Base */,
+				18AA01821E4990B5009FCA12 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		18AA01801E498CFF009FCA12 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18AA017F1E498CFF009FCA12 /* en */,
+				18AA01831E4990B5009FCA12 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -182,6 +201,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -229,6 +249,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
